@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "name": "questions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "questionText": {
+      "type": "string"
+    },
+    "answerOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "answers.answers"
+    },
+    "quiz": {
+      "via": "questions",
+      "model": "quizzes"
+    }
+  }
+}

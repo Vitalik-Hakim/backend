@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_answers_answers",
+  "info": {
+    "name": "answersOptions",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "answerText": {
+      "type": "string"
+    },
+    "isCorrect": {
+      "type": "boolean"
+    }
+  }
+}
