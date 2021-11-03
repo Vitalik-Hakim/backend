@@ -15,9 +15,4 @@ update_configs:
     directory: "/"
     update_schedule: "weekly"
 
-version: 2
-updates:
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "daily"
+
